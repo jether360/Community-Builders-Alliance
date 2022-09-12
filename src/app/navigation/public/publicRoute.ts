@@ -4,7 +4,7 @@ import Home from "../../../components/public/home/Home";
 
 const publicRoutes: RouteProps[] = [
     {
-        path:"/home",
+        path:"/",
         component:Home
     }
 ]
