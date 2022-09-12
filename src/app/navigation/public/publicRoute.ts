@@ -1,16 +1,11 @@
 import { RouteProps } from "react-router-dom";
-import Login from "../../../components/auth/Login";
-import Test from "../../../components/test/Test";
+import Home from "../../../components/public/home/Home";
+
 
 const publicRoutes: RouteProps[] = [
     {
-        path :"/login",
-        component: Login
-    },
-    {
-        path :"/test",
-        component: Test
-    },
- 
+        path:"/home",
+        component:Home
+    }
 ]
 export default publicRoutes;

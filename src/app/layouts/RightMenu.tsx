@@ -1,7 +1,6 @@
 import React from "react";
 import { Menu,Row, Col } from "antd";
 //import { useHistory } from "react-router-dom";
-import {logout} from "../stores/commonStore";
 import { LogoutOutlined } from '@ant-design/icons';
 
 const RightMenu = () => {
@@ -11,7 +10,7 @@ const RightMenu = () => {
       label: 
       <Row>
       <Col>
-      <LogoutOutlined style={{fontSize:"30px", margin:"auto 0px 0px 0px", marginTop:"100%"}} onClick={logout}/>
+      <LogoutOutlined style={{fontSize:"30px", margin:"auto 0px 0px 0px", marginTop:"100%"}}/>
       </Col>
       </Row>
       ,
