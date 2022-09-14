@@ -1,0 +1,30 @@
+.about-row {
+  margin-top: 13%;
+  border: #F79438 solid 1px;
+  border-radius: 2%;
+}
+
+.about-picture {
+  position: relative;
+  top: -100px;
+}
+
+.about-col {
+  position: relative;
+  top: -10px;
+  padding: 5%;
+}
+.about-col .about-text {
+  color: #F79438;
+  font-weight: 200;
+  font-family: "Inter";
+  line-height: 40px;
+}
+.about-col .about-header {
+  margin-top: 20%;
+  color: #F79438;
+  font-weight: 800;
+  font-size: 32px;
+  font-family: "Inter";
+  line-height: 44px;
+}/*# sourceMappingURL=about.css.map */

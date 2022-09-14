@@ -1,9 +1,1 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,gBAAgB,CAAA;EACZ,KAAK,EAAE,GAAG;CACb;;AAED,MAAM,EAAE,SAAS,EAAE,KAAK;EACpB,AAAA,gBAAgB,CAAA;IACZ,KAAK,EAAE,IAAI;GACd",
-    "sources": [
-        "createForm.scss"
-    ],
-    "names": [],
-    "file": "createForm.css"
-}
+{"version":3,"sources":["createForm.scss","createForm.css"],"names":[],"mappings":"AAAA;EACI,UAAA;ACCJ;;ADEA;EACI;IACI,WAAA;ECCN;AACF","file":"createForm.css"}

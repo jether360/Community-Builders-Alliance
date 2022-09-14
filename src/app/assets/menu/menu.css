@@ -2,8 +2,7 @@
   padding: 0 20px;
   border-bottom: solid 1px #e8e8e8;
   overflow: auto;
-  -webkit-box-shadow: 0 0 30px #f3f1f1;
-          box-shadow: 0 0 30px #f3f1f1;
+  box-shadow: 0 0 30px #f3f1f1;
 }
 
 .menu-items {
@@ -125,7 +124,7 @@
     margin-left: -20px;
   }
   .menuCon .ant-menu-item,
-  .menuCon .ant-menu-submenu-title {
+.menuCon .ant-menu-submenu-title {
     padding: 1px 20px;
   }
   .logo a {
@@ -135,5 +134,4 @@
     width: 100%;
     margin-top: 35%;
   }
-}
-/*# sourceMappingURL=menu.css.map */
+}/*# sourceMappingURL=menu.css.map */
