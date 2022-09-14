@@ -2,8 +2,9 @@ import React from "react";
 import { Layout, Button, Row, Col } from "antd";
 import { RouteComponentProps } from "react-router-dom";
 import { Link } from "react-scroll";
+import MainFooter from "./footer/MainFooter";
 
-const { Content, Header } = Layout;
+const { Content, Header, Footer } = Layout;
 
 interface IProps extends RouteComponentProps {
   component:
@@ -30,7 +31,7 @@ const PublicMainLayout = ({ component, ...rest }: IProps) => {
                   to="about"
                   spy={true}
                   smooth={true}
-                  offset={50}
+                  offset={-100}
                   duration={500}
                 >
                   About
@@ -66,6 +67,9 @@ const PublicMainLayout = ({ component, ...rest }: IProps) => {
         >
           <Component {...rest} />
         </Content>
+        <Footer style={{ backgroundColor: "#202020", height: "495px",marginTop:"15%" }}>
+          <MainFooter/>
+        </Footer>
         {/*
         <Layout
           style={{

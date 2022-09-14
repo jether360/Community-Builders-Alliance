@@ -3,6 +3,7 @@ import { Row, Col } from "antd";
 import Picture from "../../../app/assets/images/homepage_picture.png";
 import About from "../about/About";
 
+
 const Home = () => {
 
   return (
