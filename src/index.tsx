@@ -8,6 +8,7 @@ import 'antd/dist/antd.css';
 import "../src/app/assets/menu/menu.css";
 import "../src/app/assets/createform/createForm.css";
 import "../src/app/assets/about/about.css";
+import "../src/app/assets/modal/modal.css";
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement

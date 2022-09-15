@@ -1,8 +1,9 @@
 import React from "react";
-import { Layout, Button, Row, Col } from "antd";
+import { Layout, Row, Col } from "antd";
 import { RouteComponentProps } from "react-router-dom";
 import { Link } from "react-scroll";
 import MainFooter from "./footer/MainFooter";
+import LoginModal from "../modals/LoginModal";
 
 const { Content, Header, Footer } = Layout;
 
@@ -40,19 +41,7 @@ const PublicMainLayout = ({ component, ...rest }: IProps) => {
             </Row>
             <Row>
               <Col>
-                <Button
-                  type="primary"
-                  style={{
-                    backgroundColor: "#F79438",
-                    border: "none",
-                    borderRadius: "30px",
-                    width: "190px",
-                  }}
-                  size="large"
-                  block
-                >
-                  Login
-                </Button>
+                <LoginModal/>
               </Col>
             </Row>
           </Row>
