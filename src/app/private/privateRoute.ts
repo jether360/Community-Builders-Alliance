@@ -3,7 +3,7 @@ import Dashboard from "../../components/private/dashboard/Dashboard";
 
 const privateRoutes: RouteProps[] = [
  {
-    path:"/dashboard",
+    path:"/user-info",
     component:Dashboard
  }
 ]
