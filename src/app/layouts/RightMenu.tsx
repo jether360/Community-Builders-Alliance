@@ -1,22 +1,11 @@
 import React from "react";
-import { Menu,Row, Col } from "antd";
+import { Menu } from "antd";
 //import { useHistory } from "react-router-dom";
-import { LogoutOutlined } from '@ant-design/icons';
+//import { LogoutOutlined } from '@ant-design/icons';
 
 const RightMenu = () => {
  // let history = useHistory();
-  const items = [
-    {
-      label: 
-      <Row>
-      <Col>
-      <LogoutOutlined style={{fontSize:"30px", margin:"auto 0px 0px 0px", marginTop:"100%"}}/>
-      </Col>
-      </Row>
-      ,
-      key: "item-4",
-    } // which is required
-  ];
-  return <Menu mode="horizontal" items={items} className="menu-items"/>;
+ 
+  return <Menu mode="horizontal"  className="menu-items"/>;
 };
 export default RightMenu;
