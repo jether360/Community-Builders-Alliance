@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import LeftMenu from "./LeftMenu";
 import { Drawer, Button } from "antd";
-import Logo from "../assets/images/logo.png";
 import RightMenu from "./RightMenu";
 
 
@@ -23,9 +22,6 @@ class MainLayout extends Component {
   render() {
     return (
       <nav className="menuBar">
-        <div className="logo">
-          <a href="/"><img src={Logo} width="90" alt="" /></a>
-        </div>
         <div className="menuCon">
           <div className="leftMenu">
             <LeftMenu />
