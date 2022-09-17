@@ -4,7 +4,7 @@ import { IModal } from "../models/modal";
 
 export default class ModalStore {
     modal: IModal = {} as IModal;
-
+   
     constructor() {
         makeAutoObservable(this, {
             //observable
@@ -14,7 +14,7 @@ export default class ModalStore {
             closeModal: action
         })
     }
-
+    
     showModal = (body: ReactNode, width?: number) => {
         this.modal.show = true;
         this.modal.body = body;
