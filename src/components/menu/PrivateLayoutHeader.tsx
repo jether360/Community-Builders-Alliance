@@ -2,18 +2,15 @@ import React from "react";
 import { Row, Col, Menu, Avatar } from "antd";
 import Dropdown from "antd/lib/dropdown";
 import { UserOutlined, EditOutlined, LogoutOutlined } from "@ant-design/icons";
+import Profile from "../modals/Profile";
 
 const menu = (
   <Menu
     items={[
       {
-        label: "Profile",
+        label: <Profile/>,
         key: "1",
         icon: <UserOutlined />,
-        onClick: () => {
-          //showModal(<AddItems/>);
-          // history.push("/user-settings")
-        },
       },
       {
         label: "Change Password",

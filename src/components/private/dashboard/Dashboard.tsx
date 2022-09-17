@@ -38,26 +38,26 @@ const Dashboard = () => {
 
   return (
     <>
-      <Card>
+      <Card style={{boxShadow:"0px 4px 4px rgba(0, 0, 0, 0.25)"}}>
         <Row justify="space-between">
           <Col>
-            <h1>Total Income: 100000</h1>
+            <h1 className="dashboard-h1">Total Income: 100000</h1>
           </Col>
           <Col>
-            <h1>Direct Income: 133300</h1>
+            <h1 className="dashboard-h1">Direct Income: 133300</h1>
           </Col>
         </Row>
         <Row justify="space-between">
           <Col>
-            <h1>Withdrawable Balance: 100000</h1>
+            <h1 className="dashboard-h1">Withdrawable Balance: 100000</h1>
           </Col>
           <Col>
-            <h1>1st Indirect Income: 133300</h1>
+            <h1 className="dashboard-h1">1st Indirect Income: 133300</h1>
           </Col>
         </Row>
         <Row justify="end">
           <Col>
-            <h1>2nd Indirect Income: 133300</h1>
+            <h1 className="dashboard-h1">2nd Indirect Income: 133300</h1>
           </Col>
         </Row>
         <br/>
