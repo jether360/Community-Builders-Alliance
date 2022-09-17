@@ -1,4 +1,4 @@
-.ant-modal-content {
+.log-in-modal .ant-modal-content {
   border-radius: 14px;
   background-color: #F8E6D0;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
@@ -17,8 +17,22 @@
   width: 75%;
 }
 
+.profile-modal .ant-modal-content {
+  background-color: #F3F1EE;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+
+.profile-h3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  color: #424242;
+}
+
 @media screen and (max-width: 940px) {
-  .ant-modal-content {
+  .log-in-modal .ant-modal-content {
     border-radius: 14px;
     background-color: #F8E6D0;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
@@ -33,5 +47,10 @@
   }
   .login-h1 {
     font-size: 25px;
+  }
+  .profile-modal .ant-modal-content {
+    background-color: #F3F1EE;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
   }
 }/*# sourceMappingURL=modal.css.map */
