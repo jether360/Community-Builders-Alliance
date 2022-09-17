@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Button, Modal } from "antd";
+import ProfileLayout from "./ProfileLayout";
 
 
 const Profile = () =>{
@@ -29,8 +30,9 @@ const Profile = () =>{
         footer={null}
         maskClosable={false}
         width="50%"
-      >
-        <h1>hi</h1>
+        className="profile-modal"
+      > 
+        <ProfileLayout/>
       </Modal>
         </>
     )

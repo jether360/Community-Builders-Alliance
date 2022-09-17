@@ -28,6 +28,7 @@ const LoginModal = () => {
         footer={null}
         maskClosable={false}
         width="50%"
+        className="log-in-modal"
       >
         <br />
         <br />
