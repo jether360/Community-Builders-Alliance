@@ -3,6 +3,7 @@ import { Row, Col, Menu, Avatar } from "antd";
 import Dropdown from "antd/lib/dropdown";
 import { UserOutlined, EditOutlined, LogoutOutlined } from "@ant-design/icons";
 import Profile from "../modals/Profile";
+import ChangePasswordModal from "../modals/ChangePasswordModal";
 
 const menu = (
   <Menu
@@ -13,7 +14,7 @@ const menu = (
         icon: <UserOutlined />,
       },
       {
-        label: "Change Password",
+        label: <ChangePasswordModal/>,
         key: "2",
         icon: <EditOutlined />,
       },

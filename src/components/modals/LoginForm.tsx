@@ -38,7 +38,7 @@ const LoginForm = () =>{
                   />
                 </Form.Item>
                 <Form.Item name="password">
-                  <Input
+                  <Input.Password
                     name="password"
                     placeholder="Password"
                     size="large"
