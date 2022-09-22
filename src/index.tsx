@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import 'antd/dist/antd.css';
+import 'antd/dist/antd.min.css';
 //import 'bootstrap/dist/css/bootstrap.min.css';
 import "../src/app/assets/menu/menu.css";
 import "../src/app/assets/createform/createForm.css";
