@@ -5,6 +5,7 @@ import { Link } from "react-scroll";
 import MainFooter from "./footer/MainFooter";
 import LoginModal from "../modals/LoginModal";
 
+
 const { Content, Header, Footer } = Layout;
 
 interface IProps extends RouteComponentProps {
@@ -25,25 +26,47 @@ const PublicMainLayout = ({ component, ...rest }: IProps) => {
         <Header
           style={{ backgroundColor: "#E6E6E6", position: "sticky", top: "0" }}
         >
-          <Row justify="space-between">
-            <Row>
-              <Col>
-                <Link
-                  to="about"
-                  spy={true}
-                  smooth={true}
-                  offset={-100}
-                  duration={500}
-                >
-                  About
-                </Link>
-              </Col>
-            </Row>
-            <Row>
-              <Col>
-                <LoginModal/>
-              </Col>
-            </Row>
+          <Row gutter={55} justify="end" className="row-nav">
+            <Col>
+              <Link
+                to="about"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={500}
+                className="public-nav"
+              >
+                About Us
+              </Link>
+            </Col>
+            <Col>
+              <Link
+                to="about"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={500}
+                className="public-nav"
+              >
+                Benefits
+              </Link>
+            </Col>
+
+            <Col>
+              <Link
+                to="about"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={500}
+                className="public-nav"
+              >
+                Special Offers
+              </Link>
+            </Col>
+            <Col>
+              <LoginModal />
+            </Col>
           </Row>
         </Header>
         <Content
@@ -56,8 +79,14 @@ const PublicMainLayout = ({ component, ...rest }: IProps) => {
         >
           <Component {...rest} />
         </Content>
-        <Footer style={{ backgroundColor: "#202020", height: "495px",marginTop:"15%" }}>
-          <MainFooter/>
+        <Footer
+          style={{
+            backgroundColor: "#202020",
+            height: "495px",
+            marginTop: "15%",
+          }}
+        >
+          <MainFooter />
         </Footer>
         {/*
         <Layout

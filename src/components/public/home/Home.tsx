@@ -2,13 +2,17 @@ import React from "react";
 import { Row, Col } from "antd";
 import Picture from "../../../app/assets/images/homepage_picture.png";
 import About from "../about/About";
-
+import Logo from "../../../app/assets/images/cba-logo.png";
 
 const Home = () => {
-
   return (
     <>
-      <Row justify="space-between">
+    <Row>
+      <Col>
+      <img src={Logo} width="50%" alt="" style={{marginLeft:"-17%"}}/>
+      </Col>
+      </Row>
+      <Row justify="space-between" className="home-row">
         <Col>
           <h1
             style={{
@@ -39,11 +43,12 @@ const Home = () => {
             src={Picture}
             width="75%"
             style={{ marginLeft: "15%", mixBlendMode: "multiply" }}
+            className="home-picture"
             alt=""
           />
         </Col>
       </Row>
-      <About/>
+      <About />
     </>
   );
 };
