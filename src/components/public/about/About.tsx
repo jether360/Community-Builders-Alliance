@@ -2,6 +2,7 @@ import React from "react";
 import { Row, Col } from "antd";
 import Picture from "../../../app/assets/images/about_us.png";
 
+
 const About = () => {
   return (
     <>
