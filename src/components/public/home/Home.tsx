@@ -3,7 +3,7 @@ import { Row, Col } from "antd";
 import Picture from "../../../app/assets/images/homepage_picture.png";
 import About from "../about/About";
 import Logo from "../../../app/assets/images/cba-logo.png";
-
+import Benefits from "../benefits/Benefits";
 
 const Home = () => {
   return (
@@ -50,6 +50,7 @@ const Home = () => {
         </Col>
       </Row>
       <About />
+      <Benefits/>
     </>
   );
 };

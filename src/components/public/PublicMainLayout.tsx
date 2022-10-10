@@ -41,7 +41,7 @@ const PublicMainLayout = ({ component, ...rest }: IProps) => {
             </Col>
             <Col>
               <Link
-                to="about"
+                to="benefits"
                 spy={true}
                 smooth={true}
                 offset={-100}
