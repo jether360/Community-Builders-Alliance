@@ -4,6 +4,7 @@ import Picture from "../../../app/assets/images/homepage_picture.png";
 import About from "../about/About";
 import Logo from "../../../app/assets/images/cba-logo.png";
 import Benefits from "../benefits/Benefits";
+import Offers from "../offers/Offers";
 
 const Home = () => {
   return (
@@ -51,6 +52,7 @@ const Home = () => {
       </Row>
       <About />
       <Benefits/>
+      <Offers/>
     </>
   );
 };
