@@ -9,17 +9,27 @@
 
 .about-col {
   position: relative;
-  top: -10px;
-  padding: 5%;
+  top: -120px;
+  padding: 2%;
 }
-.about-col .about-text {
+
+.about-text {
   color: #F79438;
   font-weight: 200;
   font-family: "Inter";
   line-height: 40px;
 }
-.about-col .about-header {
-  margin-top: 20%;
+
+.mission-header {
+  margin-top: 5%;
+  color: #F79438;
+  font-weight: 800;
+  font-size: 32px;
+  font-family: "Inter";
+  line-height: 44px;
+}
+
+.vision-header {
   color: #F79438;
   font-weight: 800;
   font-size: 32px;
