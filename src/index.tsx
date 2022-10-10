@@ -10,6 +10,7 @@ import "../src/app/assets/createform/createForm.css";
 import "../src/app/assets/about/about.css";
 import "../src/app/assets/modal/modal.css";
 import "../src/app/assets/dashboard/dashboard.css";
+import "../src/app/assets/benefits/benefits.css";
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
