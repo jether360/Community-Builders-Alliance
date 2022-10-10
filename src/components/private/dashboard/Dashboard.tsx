@@ -1,5 +1,6 @@
 import React from "react";
 import { Row, Col, Card, Table } from "antd";
+import Withdraw from "../../modals/Withdraw";
 
 const Dashboard = () => {
     const dataSource = [
@@ -59,6 +60,12 @@ const Dashboard = () => {
           <Col>
             <h1 className="dashboard-h1">2nd Indirect Income: 133300</h1>
           </Col>
+        </Row>
+        <br/>
+        <Row justify="start">
+          <Col>
+        <Withdraw/>
+        </Col>
         </Row>
         <br/>
         <Table dataSource={dataSource} columns={columns} />;
