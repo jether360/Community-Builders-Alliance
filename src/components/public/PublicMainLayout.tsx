@@ -24,7 +24,7 @@ const PublicMainLayout = ({ component, ...rest }: IProps) => {
         style={{ backgroundColor: "#E6E6E6", height: "100%", margin: "auto" }}
       >
         <Header
-          style={{ backgroundColor: "#E6E6E6", position: "sticky", top: "0" }}
+          className="header-curve"
         >
           <Row gutter={55} justify="end" className="row-nav">
             <Col>

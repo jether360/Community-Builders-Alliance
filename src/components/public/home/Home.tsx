@@ -4,6 +4,7 @@ import Picture from "../../../app/assets/images/homepage_picture.png";
 import About from "../about/About";
 import Logo from "../../../app/assets/images/cba-logo.png";
 
+
 const Home = () => {
   return (
     <>

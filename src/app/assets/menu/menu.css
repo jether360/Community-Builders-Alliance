@@ -116,6 +116,13 @@
   font-size: 25px;
 }
 
+.header-curve {
+  background-color: #E6E6E6;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
 @media (max-width: 767px) {
   .barsMenu {
     display: inline-block;
