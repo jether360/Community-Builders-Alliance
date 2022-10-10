@@ -6,7 +6,7 @@ import Picture from "../../../app/assets/images/benefits-picture.png";
 const Benefits = () => {
   return (
     <>
-      <Row id="benefits" align="middle" className="">
+      <Row id="benefits" align="middle">
         <Row>
           <Col span={12}>
             <h1 className="h1-benefits">Benefits for you</h1>
