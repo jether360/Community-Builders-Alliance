@@ -15,8 +15,7 @@ const MainFooter = () => {
               fontSize: "40px",
             }}
           >
-            Community Builders <br />
-            Alliance
+            Community Builders Alliance
           </h1>
         </Col>
         <Col>
@@ -29,20 +28,17 @@ const MainFooter = () => {
               fontSize: "40px",
             }}
           >
-            Visit Us
+            Contacts
           </h1>
         </Col>
       </Row>
-      <Row>
-        <Col span={12}>
+      <Row justify="space-between">
+        <Col >
           <h3 style={{color:"#FFFFFF"}}>2nd Floor Villahermosa Building <br/> Valencia City Bukidnon Ph.</h3>
         </Col>
-        <Col span={12}>
-          <p style={{color:"#FFFFFF"}}>
-            Cupidatat magna minim est sint laborum aute dolore dolore
-            adipisicing. Fugiat excepteur laborum elit tempor proident magna
-            occaecat occaecat cillum qui incididunt cupidatat cupidatat ut.
-          </p>
+        <Col >
+            <h3 style={{color:"#FFFFFF"}}>09676700000 TM</h3>
+            <h3 style={{color:"#FFFFFF"}}>09676700000 DITO</h3>
         </Col>
       </Row>
     </>
