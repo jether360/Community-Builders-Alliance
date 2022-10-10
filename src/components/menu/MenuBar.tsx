@@ -3,6 +3,7 @@ import { Layout, Row, Col } from "antd";
 import { RouteComponentProps } from "react-router-dom";
 import PrivateLayoutHeader from "./PrivateLayoutHeader";
 //import MainLayout from "../../app/layouts/MainLayout";
+import Logo from "../../app/assets/images/cba-user-logo.png";
 
 const { Content, Header } = Layout;
 
@@ -27,7 +28,9 @@ const Menubar = ({ component, ...rest }: IProps) => {
         }}
       >
         <Row justify="space-between">
-          <Col>Logo</Col>
+          <Col>
+            <img src={Logo} width="90" alt=""/>
+          </Col>
           <Col>
             <PrivateLayoutHeader />
           </Col>
