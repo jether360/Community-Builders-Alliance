@@ -130,6 +130,11 @@
   top: 0;
 }
 
+.public-footer{
+  background-color: #202020;
+  height: 200px;
+  margin-top: 15%;
+}
 
 
 @media (max-width: 767px) {
@@ -172,6 +177,12 @@
     color:black;
      font-family:"Montserrat";
      font-size:15px;
+  }
+
+  .public-footer{
+    background-color: #202020;
+    height: 100%;
+    margin-top: 15%;
   }
 }
 

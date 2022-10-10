@@ -80,11 +80,7 @@ const PublicMainLayout = ({ component, ...rest }: IProps) => {
           <Component {...rest} />
         </Content>
         <Footer
-          style={{
-            backgroundColor: "#202020",
-            height: "495px",
-            marginTop: "15%",
-          }}
+          className="public-footer"
         >
           <MainFooter />
         </Footer>
