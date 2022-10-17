@@ -5,7 +5,6 @@ import { Link } from "react-scroll";
 import MainFooter from "./footer/MainFooter";
 import LoginModal from "../modals/LoginModal";
 
-
 const { Content, Header, Footer } = Layout;
 
 interface IProps extends RouteComponentProps {
@@ -23,9 +22,7 @@ const PublicMainLayout = ({ component, ...rest }: IProps) => {
         className="site-layout"
         style={{ backgroundColor: "#E6E6E6", height: "100%", margin: "auto" }}
       >
-        <Header
-          className="header-curve"
-        >
+        <Header className="header-curve">
           <Row gutter={55} justify="end" className="row-nav">
             <Col>
               <Link
@@ -79,9 +76,7 @@ const PublicMainLayout = ({ component, ...rest }: IProps) => {
         >
           <Component {...rest} />
         </Content>
-        <Footer
-          className="public-footer"
-        >
+        <Footer className="public-footer">
           <MainFooter />
         </Footer>
         {/*
